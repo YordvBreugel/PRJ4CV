@@ -30,7 +30,8 @@ body {
 }
 
 .resume-aside {
-	background-color:lightgray;
+	background-color:#16516b;
+	color:white;
 }
 
 /* Styles for lists in the document */
@@ -88,4 +89,12 @@ body {
 	
 	margin-right: 10px;
 }
-
+.sub {
+	color: #16516b;
+	font-family: "madimi One", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin-left: 25px;
+}
+#contact {
+	color: white;
+	margin-left: 0px;
+}
