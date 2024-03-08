@@ -14,15 +14,23 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #16516b;
+	padding: 20px 0px 20px 0px;
+	color: aliceblue;
+	padding-left: 20px
 }
-
+.header-content {
+	justify-content: center;
+	align-content: center;
+	
+	
+}
 .resume-main {
 	background-color: #fffefc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color:lightgray;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +56,36 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+	color: red;
 }
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#name {
+	
+	font-family: "madimi One", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: aliceblue;
+}
+
+.contact-list {
+	
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.contact-item {
+	justify-content: center;
+	padding: 10px;
+}
+
+.contact-icon {
+	
+	margin-right: 10px;
+}
+
