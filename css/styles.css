@@ -30,7 +30,8 @@ body {
 }
 
 .resume-aside {
-	background-color:#16516b;
+	padding:0px 20px 0px 20px;
+	background-color:orange;
 	color:white;
 }
 
@@ -57,7 +58,6 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
-	color: red;
 }
 
 .madimi-one-regular {
@@ -76,18 +76,25 @@ body {
 	
 	background-color: white;
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 8px;
 
 }
 
 .contact-item {
 	justify-content: center;
 	padding: 10px;
+	transition: 0.25s;
+	color: aqua;
 }
-
+.contact-item:hover{
+	background-color: #16516b;
+	color:white;
+	border-radius: 3px;
+}
 .contact-icon {
 	
 	margin-right: 10px;
+
 }
 .sub {
 	color: #16516b;
@@ -97,4 +104,38 @@ body {
 #contact {
 	color: white;
 	margin-left: 0px;
+}
+
+#mail {
+	
+	color:#16516b;
+}
+#mail:hover {
+	color: white;
+}
+
+#envelope{
+	color:#16516b;
+}
+#envelope:hover{
+	color: white;
+}
+ #github {
+	color:#16516b;
+	margin: 5px;
+}
+#github:hover{ 
+	color: white;
+}
+
+#envelopeicon:hover{
+	
+background-color: aqua;
+	
+}
+#li {
+	padding: 5px;
+}
+#githubdiv .github {
+	
 }
